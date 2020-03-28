@@ -1,0 +1,139 @@
+.phone{
+    margin-top: -150px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 100px;
+
+}
+
+.venimos{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.venimos h2{
+    color: black;
+    font-size: 48px;
+}
+
+.phone-cont{
+    width: 407.6px;
+    height: 650px;
+}
+
+.phonet{
+    width: 45%;
+    margin-left: 50px;
+}
+
+/* invitados */
+
+
+
+.inv{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 5vh;
+    margin-bottom: 60px;
+}
+
+.uno{
+    width: 100%;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.uno2{
+    width: 100%;
+    grid-column: 2;
+    grid-row: 2;
+
+}
+
+.uno3{
+    width: 100%;
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.uno4{
+    width: 100%;
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.uno5{
+    width: 100%;
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.uno6{
+    width: 100%;
+    grid-column: 3;
+    grid-row: 3;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .phone{
+        width: 100%;
+        margin-top: -70px;
+        position: relative;
+        display: flex;
+        margin-bottom: 50px;
+        
+    }
+    
+    .venimos{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    
+    }
+    
+    .venimos h2{
+        color: black;
+        font-size: 36px;
+    }
+    
+    .phone-cont{
+    width: 340px;
+    height: 519px;
+    margin-bottom: 50px;
+}
+
+
+.phonet{
+    width: 90%;
+    margin: 0;
+}
+
+
+    /* invitados */
+
+    .invitados h2{
+        padding: 0 0 20px 20px;
+        position: relative;
+        font-size: 36px;
+        width: 30px;
+    }
+    
+    .inv{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    
+
+
+}

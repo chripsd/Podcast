@@ -16,222 +16,58 @@ a {
 
 h1 {
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 36px;
-    color: #060A24;
     letter-spacing: 0;
-    line-height: 42px;
     font-weight: 300;
+    line-height: 42px;
+
     }    
 
+h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    letter-spacing: 0;
+    font-weight: 100;
+    line-height: 42px;
+    }    
+
+h3 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    letter-spacing: 0;
+    font-weight: 600;
+    line-height: 42px;
+        }    
+    
 p {
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 14px;
+    font-size: 16px;
     color: black;
     letter-spacing: 0;
     line-height: 22px;
     margin: 20px 0px;
     }
 
-
-/* Estilos para smartphone */
-/* @media only screen and (min-width:425px) and (max-width:760px){ */
-
-/* Menu */
-
-.container{
-    background-color:white;
-    width: 100%;
-    height: 44px;
-    position: relative;
-}
-
-.logo{
-    padding: 10px 0 0 20px;
-}
-
-.container .first{
-    display: none;
-}
-
-.container .first:checked +.my-navbar{
-    visibility: visible;
-}
-
-.hambur{
-    position: absolute;
-    right: 20px;
-    top: 15px;
-}
-    .hambur > div{
-        width: 20px;
-        height: 2px;
-        background-color: black;    
-    }
-    div.linea2{
-        margin-top: 3px;
-        margin-bottom: 3px;
-    }
-
-.my-navbar {
-    width: 100%;
-    height: 150px;
-    background-color: #0000EC;
-    visibility: hidden;
-   
-}
-
-.navbar{
-    font-family: 'IBM Plex Mono', monospace;
-    color: #FFFFFF;
-    line-height: 28px;
-    text-align: left;
-    font-size: 16px;
+.titulos {
+    font-family: 'IBM Plex Sans', sans-serif;
     letter-spacing: 0;
-    list-style: none;
-    padding: 20px 30px;
-}
-
-.navbar a {
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
-.navbar a:hover {
-    color: #00F3BB;
-}
-
-
-/* info */
-
-.info{
-    padding: 0px 20px 0px 20px;
-
-}
-.btn-conoce {
-    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 100;
+    letter-spacing: 0;
     color: #060A24;
-    background-color: #00F3BB;
+    }    
+
+
+.texto {
+    font-family: 'IBM Plex Sans', sans-serif;
     letter-spacing: 0;
-    text-align: center;
-    line-height: 24px;
-    font-size: 18px;
-    padding: 10px 0 10px 0;
-    margin: 20px;
-    }
+    font-weight: 100;
+    letter-spacing: 0;
+    color: #060A24;
+    }    
 
-.btn-conoce:hover {
-    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
-    color: white;
-    cursor: pointer;
-    }
 
-/* Episodios */ 
+.titulos2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    letter-spacing: 0;
+    font-weight: 100;
+    letter-spacing: 0;
 
-.music-spoty {
-    padding: 80px 20px 100px 20px;
-    height: auto;
-    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-    clip-path: polygon(
-    0 5%,
-    100% 0,
-    100% 95%,
-    0% 100%
-  );
-    
-}
+    }    
 
-.music-spoty h1{
-    color: white;
-    padding-bottom: 20px;
-}
-
-/* section blanca*/ 
-
-.phone{
-    padding: 0 20px;
-    z-index: 1;
-    margin-top: -60px;
-    position: relative;
-}
-
-.phone-cont{
-    width: 100%;
-    height: auto;
-    /* background-image: url("../images/phone.png"); */
-    background-repeat: no-repeat;
-    background-size: contain;
-} 
-
-/* invitados */
-.inv{
-padding: 20px;
-
-}
-.invitados{ 
-    width: 100%;
-}
-
-.invitados img {
-    width: 100%;
-    
-}
-
-/* temas */
-
-.temas{
-    padding: 20px;
-}
-
-.iconos{
-    text-align: center;
-}
-
-.icon1{
-    margin: 50px 0 0 0 ;
-}
-
-.iconos h4{
-    padding: 10px 0 0 0;
-}
-
-/* colo.azul */
-
-.square-blue{
-    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-    text-align: center;
-    color: black;
-    height: auto;
-    padding: 50px 20px 20px 20px;
-    clip-path: polygon(
-    0 10%,
-    100% 0,
-    100% 100%,
-    0 100%
-  );
-}
-
-.square-blue h1{
-    color: white;
-}
-
-.footer{
-    text-align: center;  
-    background-color:white;
-    text-align: center;
-    width: 100%;
-}
-
-.footer-icon{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.footer a{
-    color: black;
-}
-
-.footer a:hover{
- color: teal;
-}

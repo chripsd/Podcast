@@ -1,0 +1,87 @@
+.blue{
+  height: 418px;
+  position: relative;
+  text-align: center;
+  display: block;
+  align-content: center;
+  background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+  clip-path: polygon(
+    0 20%,
+    100% 0,
+    100% 100%,
+    0 100%
+  ); 
+  padding: 70px 0 50px 0 ;
+}
+
+.titulo{
+  margin: 200px 0 20px 0;
+  color: white;
+  font-size: 48px;
+  
+}
+
+
+.btn-episodios {
+  font-family: 'IBM Plex Mono', monospace;
+  color: #060A24;
+  background-color: #00F3BB;
+  letter-spacing: 0;
+  line-height: 24px;
+  font-size: 18px;
+  padding: 10px;
+  margin: 20px 0;
+  border: none;
+  width: 30%;
+  }
+
+.btn-episodios:hover {
+  background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+  }
+
+@media only screen and (max-width: 768px) {
+
+  .blue{
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    width: 100%;
+    text-align: center;
+    clip-path: polygon(
+      0 10%,
+      100% 0,
+      100% 100%,
+      0 100%
+    ); 
+    padding: 40px 0 50px 0 ;
+  }
+
+
+.titulo{
+  margin: 150px 0 20px 0;
+  color: white;
+  font-size: 36px;
+  
+}
+
+  
+.btn-episodios {
+  font-family: 'IBM Plex Mono', monospace;
+  color: #060A24;
+  background-color: #00F3BB;
+  letter-spacing: 0;
+  line-height: 24px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  width: 90%;
+  }
+
+.btn-episodios :hover {
+  background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+  color: white;
+  cursor: pointer;
+  }
+
+}

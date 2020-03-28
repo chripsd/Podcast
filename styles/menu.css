@@ -1,0 +1,148 @@
+
+/* Menu */
+
+.container{
+    background-color:white;
+    width: 100%;
+    height: 80px;
+    position: relative;
+    z-index: 1;
+}
+
+.logo{
+    padding: 10px 0 0 20px;
+    cursor: pointer;
+}
+
+.container .first .equis{
+    display: none;
+}
+
+.container .first:checked +.my-navbar{
+    visibility: visible;
+}
+
+
+.container .equis:checked +.hambur{
+    visibility: visible;
+}
+
+.hambur{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    z-index: 1;
+}
+    .hambur > div{
+        width: 20px;
+        height: 2px;
+        background-color: black;    
+    }
+    div.linea2{
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+
+
+.my-navbar {
+    width: 100%;
+    background-color: #0000EC;
+    visibility: hidden;
+   
+}
+
+.navbar{
+    font-family: 'IBM Plex Mono', monospace;
+    line-height: 28px;
+    font-size: 16px;
+    letter-spacing: 0;
+    list-style: none;
+    padding: 20px 30px;
+}
+
+.navbar a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #00F3BB;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+
+/* Menu */
+
+.container{
+    background-color:white;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    padding: 20px 0 0 0;
+    width: 36px;
+    height: 36px;
+}
+
+.container .first{
+    display: none;
+}
+
+.container .first:checked +.my-navbar{
+    visibility: visible;
+}
+
+.hambur{
+    position: absolute;
+    display: none;
+}
+
+.my-navbar {
+    width: 50%;
+    visibility: inherit;
+    background: none;
+
+}
+
+.navbar{
+    font-family: 'IBM Plex Mono', monospace;
+    line-height: 28px;
+    font-size: 16px;
+    letter-spacing: 0;
+    list-style: none; 
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 0 20px;
+   
+}
+
+.navbar a:hover {
+    color: #00F3BB;
+    text-decoration: line-through;
+    line-height: 28px;
+    transition: 0.4s;
+}
+
+.navbar a:active {
+    color: rgba(6,10,36,0.56);
+    text-decoration: line-through;
+    line-height: 28px;
+    
+}
+
+}
+
+
