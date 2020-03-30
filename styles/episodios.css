@@ -63,13 +63,10 @@
     height: auto;
     display: block;
     background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-    clip-path: polygon(
-    0 5%,
-    100% 0,
-    100% 95%,
-    0% 100%
-  );
-    
+    clip-path: polygon( 0 5%, 100% 0, 100% 95%,0% 100%);
+    -webkit-clip-path: polygon( 0 5%, 100% 0, 100% 95%,0% 100%);
+    -o-clip-path: polygon( 0 5%, 100% 0, 100% 95%,0% 100%);
+    -ms-clip-path: polygon( 0 5%, 100% 0, 100% 95%,0% 100%);
 }
 
 .spotytitulos{
