@@ -78,6 +78,7 @@
 
 .navbar a:hover {
     color: #00F3BB;
+    transition: 0.4s;
 }
 
 
@@ -87,8 +88,7 @@
 /* Menu */
 
 .container{
-    background-color:white;
-    width: 100%;
+    
     position: fixed;
     z-index: 1;
     display: flex;
@@ -110,7 +110,7 @@
 }
 
 .hambur{
-    position: absolute;
+
     display: none;
 }
 
@@ -122,14 +122,11 @@
 }
 
 .navbar{
-    font-family: 'IBM Plex Mono', monospace;
-    line-height: 28px;
-    font-size: 16px;
-    letter-spacing: 0;
-    list-style: none; 
+
     display: flex;
     justify-content: space-around;
     padding: 30px;
+    
 
 }
 
@@ -144,7 +141,7 @@
     color: #00F3BB;
     text-decoration: line-through;
     line-height: 28px;
-    transition: 0.4s;
+
 }
 
 .navbar a:active {

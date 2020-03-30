@@ -18,6 +18,12 @@
     
 }
 
+.titulos{
+    font-size: 36px;
+    margin-left: 25px;
+
+}
+
 .texto{
     font-family: 'IBM Plex Sans', sans-serif;
     text-align: center;
@@ -25,12 +31,6 @@
     font-weight: 400;
     padding: 0 0 40px 0;
     line-height: 30px;
-}
-
-.titulos{
-    font-size: 36px;
-    margin-left: 25px;
-
 }
 
 .icon{
@@ -46,13 +46,8 @@
 
 @media only screen and (min-width: 768px) {
 
+
 /* temas */
-
-
-.temas{
-    width: 100%;
-}
-
 .titulostemas{
     font-size: 48px;
     margin-left: 160px;
@@ -65,16 +60,22 @@
     
 }
 
+.titulos{
+    font-size: 48px;
+    margin-left: 160px;
+}
+
+.texto{
+    margin-top: 0;
+}
+
 
 .icon{
-    justify-items: center;
-    text-align: center;
-    align-content: center;
     display: grid;
     grid-template-columns: 15% 15% 15% 15%;
     grid-row: auto;
     grid-gap: 40px;
-    padding: 50px 0;
+    padding: 20px 0;
 }
 
 .icon1{
@@ -104,18 +105,6 @@
    
 }
 
-.titulos{
-    font-size: 48px;
-    margin-left: 160px;
-}
-
-.texto{
-    font-family: 'IBM Plex Sans', sans-serif;
-    text-align: center;
-    line-height: 30px;
-    margin-top: 0;
-    font-size: 24px;
-}
 
 
 }
