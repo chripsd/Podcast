@@ -1,29 +1,37 @@
-
-/* temas */
+/*Estilos Movil */
 
 .temas{
     display: flex;
     flex-direction: column;   
     width: 100%;
+
+}
+
+.titulostemas{
+    font-size: 36px;
+
+}
+
+.salto::after{
+    content: '\A';
+    white-space: pre;
+    
 }
 
 .texto{
+    font-family: 'IBM Plex Sans', sans-serif;
     text-align: center;
     font-size: 24px;
-    color: #060A24;
-    letter-spacing: 0;
     font-weight: 400;
-    padding-bottom: 20px;
+    padding: 0 0 40px 0;
+    line-height: 30px;
 }
-
 
 .titulos{
     font-size: 36px;
     margin-left: 25px;
-   
-   
-}
 
+}
 
 .icon{
     display: flex;
@@ -31,7 +39,7 @@
     justify-content: center;
     text-align: center;
     align-content: center;
-    margin-top: 20px;
+    margin-top: 40px;
 
 }
 
@@ -40,9 +48,23 @@
 
 /* temas */
 
+
 .temas{
     width: 100%;
 }
+
+.titulostemas{
+    font-size: 48px;
+    margin-left: 160px;
+
+}
+
+.salto::after{
+    content: none;
+    white-space: normal;
+    
+}
+
 
 .icon{
     justify-items: center;
@@ -88,14 +110,12 @@
 }
 
 .texto{
-letter-spacing: 0;
-text-align: center;
-line-height: 30px;
-font-weight: normal;
-margin-top: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 0;
+    font-size: 24px;
 }
 
+
 }
-
-
-

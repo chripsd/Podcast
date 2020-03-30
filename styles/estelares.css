@@ -15,10 +15,20 @@
     align-items: center
 }
 
-.venimos h2{
-    color: black;
+.titulosphone{
+    font-size: 48px;
+ 
+}
+
+.entrevistastitulo{
+    font-size: 48px;
+      
+}
+
+.titulostemas{
     font-size: 48px;
 }
+
 
 .phone-cont{
     width: 407.6px;
@@ -31,7 +41,6 @@
 }
 
 /* invitados */
-
 
 
 .inv{
@@ -98,16 +107,18 @@
         align-content: center;
     
     }
+
+
+    .salto::after{
+    content: '\A';
+    white-space: pre;
     
-    .venimos h2{
-        color: black;
-        font-size: 36px;
-    }
+}
     
     .phone-cont{
     width: 340px;
     height: 519px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 
@@ -119,17 +130,26 @@
 
     /* invitados */
 
-    .invitados h2{
-        padding: 0 0 20px 20px;
-        position: relative;
+    .titulosphone{
+        padding: 0;
         font-size: 36px;
-        width: 30px;
+     
+    }
+
+    .entrevistastitulo{
+        padding: 0 0 20px 20px;
+        font-size: 36px;
+    }
+
+
+    .titulostemas{
+        padding: 0 0 20px 20px;
+        font-size: 36px;
     }
     
     .inv{
         position: relative;
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
 
     }

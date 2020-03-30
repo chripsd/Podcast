@@ -14,24 +14,35 @@
     cursor: pointer;
 }
 
-.container .first .equis{
+.container .first {
     display: none;
 }
 
-.container .first:checked +.my-navbar{
+.container .first:checked ~.my-navbar{
     visibility: visible;
+   
 }
 
-
-.container .equis:checked +.hambur{
-    visibility: visible;
+.container .first:checked + .cerrar .hambur .linea1{
+    transition: 0.5s;
+    transform: translate(0px, 5px) rotate(45deg);
 }
+.container .first:checked + .cerrar .hambur .linea2{
+    transition: 0.5s;
+    opacity: 0;
+}
+.container .first:checked + .cerrar .hambur .linea3{
+    transition: 0.5s;
+    transform: translate(0px, -5px) rotate(-45deg);
+}
+
 
 .hambur{
     position: absolute;
     right: 20px;
     top: 15px;
     z-index: 1;
+
 }
     .hambur > div{
         width: 20px;

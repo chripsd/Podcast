@@ -1,3 +1,5 @@
+/*Estilos Movil */
+
 /* info */
 
 .info{
@@ -7,7 +9,11 @@
   
 }
 
-.titu{
+.punto{
+   color: black;
+}
+
+.hellotitulo{
     font-size: 36px;
     margin: 0;
     color: black;
@@ -20,7 +26,6 @@
     white-space: pre;
     
 }
-
 
 
 .hello {
@@ -67,15 +72,14 @@
     
 }
 
-.titulos2{
+.spotytitulos{
     color: white;
     font-size: 36px;
-    line-height: 42px;
-    padding: 0 0 20px 10px;
+    padding: 0 0 20px 0;
 
 }
 
-@media only screen and (min-width: 780px) {
+@media only screen and (min-width: 768px) {
 
 /* info */
 
@@ -85,14 +89,18 @@
     padding: 180px 0 0 0;
 }
 
-
 .salto::after{
     content: none;
     white-space: normal;
     
 }
 
-.titu{
+
+.punto{
+    color: #0000EC;
+ }
+
+.hellotitulo{
     font-size: 64px;
     margin: 0;
     color: black;
@@ -153,10 +161,12 @@
 }
 
 
-.titulos2{
+.spotytitulos{
+    color: white;
     font-size: 48px;
     margin-left: 160px;
     margin-top: 100px;
+
 }
 
 
