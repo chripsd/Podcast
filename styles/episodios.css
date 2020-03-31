@@ -2,6 +2,12 @@
 
 /* info */
 
+iframe{
+    border: 0; /* en vez de frameborder */
+    background-color: transparent; /* en vez de allowtransparency */
+}
+
+
 .info{
     width: 100%;
     justify-content: center;
