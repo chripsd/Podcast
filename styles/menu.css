@@ -44,7 +44,7 @@
     z-index: 1;
 
 }
-    .hambur > div{
+    .hambur > span{
         width: 20px;
         height: 2px;
         background-color: black;    
